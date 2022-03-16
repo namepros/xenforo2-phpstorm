@@ -1,6 +1,6 @@
-package org.jetbrains.plugins.template.services
+package com.github.zenexer.xenforo2phpstorm.services
 
-import org.jetbrains.plugins.template.MyBundle
+import com.github.zenexer.xenforo2phpstorm.MyBundle
 
 class MyApplicationService {
 
