@@ -1,18 +1,18 @@
 <!-- Plugin Configuration File. Read more: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
 <idea-plugin>
-    <id>com.github.zenexer.xenforo2phpstorm</id>
-    <name>xenforo2-phpstorm</name>
+    <id>com.namepros.idea.xenforo</id>
+    <name>NamePros XenForo Integration</name>
     <vendor>zenexer</vendor>
 
     <depends>com.intellij.modules.platform</depends>
 
     <extensions defaultExtensionNs="com.intellij">
-        <applicationService serviceImplementation="com.github.zenexer.xenforo2phpstorm.services.MyApplicationService"/>
-        <projectService serviceImplementation="com.github.zenexer.xenforo2phpstorm.services.MyProjectService"/>
+        <applicationService serviceImplementation="com.namepros.idea.xenforo.services.MyApplicationService"/>
+        <projectService serviceImplementation="com.namepros.idea.xenforo.services.MyProjectService"/>
     </extensions>
 
     <applicationListeners>
-        <listener class="com.github.zenexer.xenforo2phpstorm.listeners.MyProjectManagerListener"
+        <listener class="com.namepros.idea.xenforo.listeners.MyProjectManagerListener"
                   topic="com.intellij.openapi.project.ProjectManagerListener"/>
     </applicationListeners>
 </idea-plugin>

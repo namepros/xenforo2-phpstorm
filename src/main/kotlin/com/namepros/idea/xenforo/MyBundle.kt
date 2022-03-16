@@ -1,4 +1,4 @@
-package com.github.zenexer.xenforo2phpstorm
+package com.namepros.idea.xenforo
 
 import com.intellij.DynamicBundle
 import org.jetbrains.annotations.NonNls

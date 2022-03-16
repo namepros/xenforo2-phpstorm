@@ -1,6 +1,6 @@
-package com.github.zenexer.xenforo2phpstorm.services
+package com.namepros.idea.xenforo.services
 
-import com.github.zenexer.xenforo2phpstorm.MyBundle
+import com.namepros.idea.xenforo.MyBundle
 
 class MyApplicationService {
 

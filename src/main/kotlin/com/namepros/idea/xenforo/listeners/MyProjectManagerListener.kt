@@ -1,9 +1,9 @@
-package com.github.zenexer.xenforo2phpstorm.listeners
+package com.namepros.idea.xenforo.listeners
 
 import com.intellij.openapi.components.service
 import com.intellij.openapi.project.Project
 import com.intellij.openapi.project.ProjectManagerListener
-import com.github.zenexer.xenforo2phpstorm.services.MyProjectService
+import com.namepros.idea.xenforo.services.MyProjectService
 
 internal class MyProjectManagerListener : ProjectManagerListener {
 

@@ -1,7 +1,7 @@
-package com.github.zenexer.xenforo2phpstorm.services
+package com.namepros.idea.xenforo.services
 
 import com.intellij.openapi.project.Project
-import com.github.zenexer.xenforo2phpstorm.MyBundle
+import com.namepros.idea.xenforo.MyBundle
 
 class MyProjectService(project: Project) {
 
